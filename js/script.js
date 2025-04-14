@@ -12,6 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       const data = await response.json();
+
+      BlagueTextElement.textContent = data.content;
+
     } catch (error) {
       console.error('Erreur:', error);
       BlagueTextElement.textContent = 'Impossible de charger une blague';
