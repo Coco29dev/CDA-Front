@@ -57,7 +57,7 @@ CDA-Front/
 │   └── script.js       # JavaScript pour l'interaction avec l'API
 └── images/
     ├── favicon.ico     # Favicon
-    └── carambar-logo.png  # Logo Carambar 
+    └── caramdrole-logo.png  # Logo Carambar 
 ```
 
 ##  Connexion avec l'API
